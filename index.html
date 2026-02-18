@@ -7,16 +7,15 @@
         body { font-family: "Optima", "Palatino", serif; line-height: 1.8; max-width: 850px; margin: 60px auto; padding: 0 40px; color: #333; text-align: left; }
         header { border-bottom: 2px solid #eee; padding-bottom: 30px; margin-bottom: 40px; display: flex; align-items: center; }
         .info { flex: 1; }
-        /* 调大头像尺寸，使其更显眼 */
         .avatar { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin-left: 40px; border: 1px solid #eee; }
         h1 { font-size: 2.2rem; margin: 0; }
         .links a { margin-right: 15px; color: #007aff; text-decoration: none; font-size: 0.9rem; }
         h2 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 2px; margin-top: 50px; color: #666; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; }
-        .item { margin-bottom: 25px; }
+        .item { margin-bottom: 30px; }
         .item-title { font-weight: 500; font-size: 1.1rem; display: block; }
-        .item-meta { color: #888; font-size: 0.9rem; }
-        /* PDF 下载按钮样式 */
-        .pdf-link { color: #d32f2f; font-size: 0.75rem; text-decoration: none; margin-left: 8px; border: 1px solid #d32f2f; padding: 1px 4px; border-radius: 3px; text-transform: uppercase; }
+        .item-meta { color: #888; font-size: 0.9rem; font-style: italic; }
+        .summary { font-size: 0.85rem; color: #666; margin-top: 5px; line-height: 1.5; display: block; }
+        .pdf-link { color: #d32f2f; font-size: 0.7rem; text-decoration: none; margin-left: 8px; border: 1px solid #d32f2f; padding: 1px 4px; border-radius: 3px; vertical-align: middle; text-transform: uppercase; }
         .pdf-link:hover { background: #d32f2f; color: #fff; }
     </style>
 </head>
@@ -35,22 +34,27 @@
     </header>
 
     <section>
-        <h2>Publications</h2>
+        <h2>Selected Publications</h2>
+        
         <div class="item">
-            <span class="item-title">A Wittgensteinian Critique of the Orthodox Truthmaker Theory <a href="/uploads/Wittgensteinian_Critique.pdf" class="pdf-link">PDF</a></span>
-            [cite_start]<span class="item-meta">2025 · <i>Ratio</i> [cite: 13]</span>
+            <span class="item-title">A Tropist Relational Account of Hallucinations <a href="/uploads/Hallucinations_Account.pdf" class="pdf-link">PDF</a></span>
+            <span class="item-meta">2025 · Ratio</span>
+            <span class="summary">Explores the nature of hallucinations through the lens of tropist relationalism, offering a novel account within the philosophy of perception.</span>
         </div>
+
         <div class="item">
-            <span class="item-title">The Invalidity of the Argument from Illusion and the Argument from Appearance <a href="/uploads/Invalidity_Illusion.pdf" class="pdf-link">PDF</a></span>
-            [cite_start]<span class="item-meta">2024 · <i>Acta Analytica</i> [cite: 13]</span>
+            <span class="item-title">The Invalidity of the Argument from Illusion and the Argument from Appearance</span>
+            <span class="item-meta">2024 · Acta Analytica</span>
         </div>
+
+        <div class="item">
+            <span class="item-title">The Time-Lag Argument and Simultaneity <a href="/uploads/Time-Lag-Argument.pdf" class="pdf-link">PDF</a></span>
+            <span class="item-meta">2023</span>
+        </div>
+
         <div class="item">
             <span class="item-title">Propositional Intentionalism and the Argument from Accuracy</span>
-            [cite_start]<span class="item-meta">2023 · <i>Philosophia</i> [cite: 13]</span>
-        </div>
-        <div class="item">
-            <span class="item-title">查尔默斯的埃利亚论证和虚拟主义</span>
-            [cite_start]<span class="item-meta">2022 · 《自然辩证法研究》 [cite: 13]</span>
+            <span class="item-meta">2023 · Philosophia</span>
         </div>
     </section>
 
@@ -58,11 +62,11 @@
         <h2>Research Projects</h2>
         <div class="item">
             <div class="item-title">Various Challenges in the Philosophy of Perception and the Naïve Realist Solution</div>
-            [cite_start]<div class="item-meta">国家社科基金后期资助重点项目 [cite: 13]</div>
+            <div class="item-meta">National Social Science Fund of China (国家社科基金)</div>
         </div>
         <div class="item">
             <div class="item-title">Research on Philosophy of Perception under the Predictive Processing Framework</div>
-            <div class="item-meta">上海市浦江人才计划 (Shanghai Pujiang Programme)</div>
+            <div class="item-meta">Shanghai Pujiang Programme (上海市浦江人才计划)</div>
         </div>
     </section>
 </body>
