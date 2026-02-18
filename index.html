@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <title>Zhiwei Gu (顾知巍)</title>
     <style>
-        body { font-family: "Optima", "Palatino", serif; line-height: 1.8; max-width: 800px; margin: 60px auto; padding: 0 40px; color: #333; text-align: left; }
+        body { font-family: "Optima", "Palatino", serif; line-height: 1.8; max-width: 850px; margin: 60px auto; padding: 0 40px; color: #333; text-align: left; }
         header { border-bottom: 2px solid #eee; padding-bottom: 30px; margin-bottom: 40px; display: flex; align-items: center; }
         .info { flex: 1; }
-        .avatar { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-left: 40px; border: 1px solid #eee; }
+        /* 调大头像尺寸，使其更显眼 */
+        .avatar { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin-left: 40px; border: 1px solid #eee; }
         h1 { font-size: 2.2rem; margin: 0; }
         .links a { margin-right: 15px; color: #007aff; text-decoration: none; font-size: 0.9rem; }
         h2 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 2px; margin-top: 50px; color: #666; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; }
         .item { margin-bottom: 25px; }
         .item-title { font-weight: 500; font-size: 1.1rem; display: block; }
         .item-meta { color: #888; font-size: 0.9rem; }
-        .pdf-link { color: #d32f2f; font-size: 0.8rem; text-decoration: none; margin-left: 10px; border: 1px solid #d32f2f; padding: 1px 5px; border-radius: 3px; }
+        /* PDF 下载按钮样式 */
+        .pdf-link { color: #d32f2f; font-size: 0.75rem; text-decoration: none; margin-left: 8px; border: 1px solid #d32f2f; padding: 1px 4px; border-radius: 3px; text-transform: uppercase; }
+        .pdf-link:hover { background: #d32f2f; color: #fff; }
     </style>
 </head>
 <body>
@@ -23,9 +26,9 @@
             <h1>Zhiwei Gu (顾知巍)</h1>
             <p>Assistant Professor, Fudan University</p>
             <div class="links">
-                <a href="https://philosophy.fudan.edu.cn/30/50/c28654a274512/page.htm" target="_blank">Faculty Profile</a>
+                <a href="https://philosophy.fudan.edu.cn/90/70/c14253a692336/page.htm" target="_blank">Faculty Profile</a>
                 <a href="https://philpeople.org/profiles/zhiwei-gu" target="_blank">PhilPeople</a>
-                <a href="/uploads/resume.pdf">CV (PDF)</a>
+                <a href="/uploads/resume.pdf" target="_blank">CV (PDF)</a>
             </div>
         </div>
         <img src="/avatar.jpg" alt="Zhiwei Gu" class="avatar" onerror="this.style.display='none'">
@@ -34,12 +37,20 @@
     <section>
         <h2>Publications</h2>
         <div class="item">
-            <span class="item-title">A Wittgensteinian Critique of the Orthodox Truthmaker Theory</span>
-            <span class="item-meta">2025 · Ratio</span>
+            <span class="item-title">A Wittgensteinian Critique of the Orthodox Truthmaker Theory <a href="/uploads/Wittgensteinian_Critique.pdf" class="pdf-link">PDF</a></span>
+            [cite_start]<span class="item-meta">2025 · <i>Ratio</i> [cite: 13]</span>
         </div>
         <div class="item">
-            <span class="item-title">The Invalidity of the Argument from Illusion</span>
-            <span class="item-meta">2024</span>
+            <span class="item-title">The Invalidity of the Argument from Illusion and the Argument from Appearance <a href="/uploads/Invalidity_Illusion.pdf" class="pdf-link">PDF</a></span>
+            [cite_start]<span class="item-meta">2024 · <i>Acta Analytica</i> [cite: 13]</span>
+        </div>
+        <div class="item">
+            <span class="item-title">Propositional Intentionalism and the Argument from Accuracy</span>
+            [cite_start]<span class="item-meta">2023 · <i>Philosophia</i> [cite: 13]</span>
+        </div>
+        <div class="item">
+            <span class="item-title">查尔默斯的埃利亚论证和虚拟主义</span>
+            [cite_start]<span class="item-meta">2022 · 《自然辩证法研究》 [cite: 13]</span>
         </div>
     </section>
 
@@ -47,7 +58,11 @@
         <h2>Research Projects</h2>
         <div class="item">
             <div class="item-title">Various Challenges in the Philosophy of Perception and the Naïve Realist Solution</div>
-            <div class="item-meta">National Social Science Fund of China</div>
+            [cite_start]<div class="item-meta">国家社科基金后期资助重点项目 [cite: 13]</div>
+        </div>
+        <div class="item">
+            <div class="item-title">Research on Philosophy of Perception under the Predictive Processing Framework</div>
+            <div class="item-meta">上海市浦江人才计划 (Shanghai Pujiang Programme)</div>
         </div>
     </section>
 </body>
